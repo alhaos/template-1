@@ -4,9 +4,9 @@ import "github.com/ilyakaznacheev/cleanenv"
 
 // Config general app Config
 type Config struct {
-	GroupAPIKey string `yaml:"groupAPIKey"`
-	ChatID      string `yaml:"chatID"`
-	Logfile     string `yaml:"logfile"`
+	Token   string `yaml:"token" env-required:"true"`
+	ChatID  string `yaml:"chatID"`
+	Logfile string `yaml:"logfile"`
 }
 
 // NewConfig create new Config from file

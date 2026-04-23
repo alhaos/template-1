@@ -1,4 +1,4 @@
-module github.com/alhaos/okPublisher
+module github.com/alhaos/telegramBot
 
 go 1.26.1
 
